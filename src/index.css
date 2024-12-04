@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Marcellus&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Marcellus", serif;
+  font-weight: 400;
+  font-style: normal;
+  overflow-x: hidden;
+}
+
+:root {
+  --primary-color: #009999;
+  --secondary-color: #a70e10;
+  --background-color: #e7f6f6;
+  --gray-color: #003d3d;
+  --accent-color: #075453;
+  --less-shade: #87d3d2;
+  --nav-height: 6rem;
+
+  --font-lg: 2.2rem;
+  --font-md: 1.8rem;
+  --font-sm: 1.5rem;
+  --font-esm: 1rem;
+}
+[data-theme="light"] {
+  --primary-color: #009999;
+  --secondary-color: #d38788;
+  --background-color: #003d3d;
+  --gray-color: #e7f6f6;
+  --accent-color: #87d3d2;
+  --less-shade: #075453;
+}
