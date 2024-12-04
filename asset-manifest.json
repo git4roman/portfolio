@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.89ca4a85.css",
+    "main.js": "/static/js/main.6b794c3e.js",
+    "static/media/devImage.jpg": "/static/media/devImage.0300d290c2c09f2af3b0.jpg",
+    "static/media/romanMMC.jpg": "/static/media/romanMMC.52c6741c3beeeb94e57e.jpg",
+    "static/media/romanInLab.jpg": "/static/media/romanInLab.39d899f87cde3d5380f0.jpg",
+    "static/media/namuna.jpg": "/static/media/namuna.05292a46308cc0cdc547.jpg",
+    "static/media/vibrant.jpg": "/static/media/vibrant.d68874a9289bef097b5e.jpg",
+    "static/media/newtons.jpg": "/static/media/newtons.708e582d9c15b337d29e.jpg",
+    "static/media/todoProject.png": "/static/media/todoProject.9e33eeeb3fbd96b76ba1.png",
+    "static/media/JQuery.svg": "/static/media/JQuery.c730cc3a3e3bde4a5643.svg",
+    "static/media/Postman.svg": "/static/media/Postman.a9100caa05cd29d25649.svg",
+    "static/media/SVG-Dark.svg": "/static/media/SVG-Dark.0d6dbecb3b0aaaa2b2f2.svg",
+    "static/media/MySQL-Dark.svg": "/static/media/MySQL-Dark.2c7bc3527aee2ed7b38c.svg",
+    "static/media/Photoshop.svg": "/static/media/Photoshop.0132e92fb9f5e61c78d9.svg",
+    "static/media/Github-Dark.svg": "/static/media/Github-Dark.ac545114b938c2cab646.svg",
+    "static/media/PHP-Dark.svg": "/static/media/PHP-Dark.0694fcf3a635efc733a2.svg",
+    "static/media/React-Dark.svg": "/static/media/React-Dark.45e05858175d1edbb57051533007343c.svg",
+    "static/media/Python-Dark.svg": "/static/media/Python-Dark.bf36a7c430d4004862f4.svg",
+    "static/media/VSCode-Dark.svg": "/static/media/VSCode-Dark.832fcc7f88399f79848f.svg",
+    "static/media/JavaScript.svg": "/static/media/JavaScript.9a071f2801f9f9259876.svg",
+    "index.html": "/index.html",
+    "static/media/TailwindCSS-Dark.svg": "/static/media/TailwindCSS-Dark.64f865ec00b139cb9ae7.svg",
+    "static/media/CPP.svg": "/static/media/CPP.0170491bcee6df72d47e.svg",
+    "static/media/C.svg": "/static/media/C.c626ccb6c2805626752f.svg",
+    "static/media/Windows-Dark.svg": "/static/media/Windows-Dark.c49befa9075317573cc4.svg",
+    "static/media/CSS.svg": "/static/media/CSS.5fcd7f5683afc0fc6d01.svg",
+    "static/media/HTML.svg": "/static/media/HTML.ca0db580ffd74f086f2d.svg",
+    "static/media/Vercel-Dark.svg": "/static/media/Vercel-Dark.4db075615b38efaa89d7.svg",
+    "main.89ca4a85.css.map": "/static/css/main.89ca4a85.css.map",
+    "main.6b794c3e.js.map": "/static/js/main.6b794c3e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.89ca4a85.css",
+    "static/js/main.6b794c3e.js"
+  ]
+}
