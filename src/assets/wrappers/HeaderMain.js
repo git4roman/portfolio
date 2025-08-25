@@ -9,7 +9,7 @@ export const Wrapper = styled.header`
   position: relative;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: end;
 
   .frontContainer {
     display: flex;

@@ -15,7 +15,7 @@ const About = () => {
       <div className="aboutMe">
         <h1 data-aos="fade">ABOUT ME</h1>
         <h4 data-aos="fade">{aboutMe.intro}</h4>
-        <div className="education" data-aos="fade">
+        {/* <div className="education" data-aos="fade">
           <h2>Education</h2>
           <div className="eduContent">
             <Earlier />
@@ -25,8 +25,8 @@ const About = () => {
               <Skills />
             </div>
           </div>
-        </div>
-        <div className="now"></div>
+        </div> */}
+        {/* <div className="now"></div> */}
       </div>
     </Wrapper>
   );

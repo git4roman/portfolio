@@ -5,7 +5,7 @@ export const devInfoDetails = {
 };
 
 export const introdata = {
-  title: "Namaste, I am Roman Ghimire Khatri",
+  title: "Namaste, I am Roman Khatri",
   animated: {
     first: "A CSIT enthusiast",
     second: "From Mechi Multiple Campus",
@@ -15,7 +15,7 @@ export const introdata = {
 
 export const aboutMe = {
   intro:
-    "My name is Roman Ghimire Khatri. I come from the eastern part of Nepal, Birtamode-4, Jhapa. I am a student, currently doing my bachelors in Computer Science and Information Tech.",
+    "My name is Roman Khatri. I come from the eastern part of Nepal, Birtamode-4, Jhapa. I am a student, currently doing my bachelors in Computer Science and Information Tech.",
   earlier: {
     first:
       " I went to Newton's Education Academy for Middle school and Kanchanjunga Namuna College was my High school.",

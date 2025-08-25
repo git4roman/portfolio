@@ -1,5 +1,11 @@
 import styled from "styled-components";
-import { FaFacebook, FaLinkedin, FaInstagram, FaTiktok } from "react-icons/fa";
+import {
+  FaFacebook,
+  FaLinkedin,
+  FaInstagram,
+  FaTiktok,
+  FaGithub,
+} from "react-icons/fa";
 import { socialMedia } from "../utils/devInfoDetails";
 const ContactWrapper = styled.section`
   display: flex;
@@ -97,13 +103,29 @@ const ContactWrapper = styled.section`
     }
   }
 `;
+const DownloadButton = styled.a`
+  display: inline-block;
+  background: var(--primary-color);
+  color: white;
+  padding: 0.75rem 1.5rem; /* Equivalent to px-6 py-3 */
+  border-radius: 0.5rem; /* Equivalent to rounded-lg */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    background: var(--accent-color); /* Darker blue on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Stronger shadow on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+  }
+`;
 
 const Contact = () => {
   return (
     <ContactWrapper>
       <h1 data-aos="fade">Contact Me</h1>
       <p data-aos="fade">
-        Feel free to reach out through any of the channels below. We’d love to
+        Feel free to reach out through any of the channels below. I’d love to
         hear from you!
       </p>
 
@@ -116,6 +138,9 @@ const Contact = () => {
       </div>
 
       <div className="social-icons" data-aos="fade">
+        <a href={socialMedia.github} target="_blank" rel="noopener noreferrer">
+          <FaGithub />
+        </a>
         <a
           href={socialMedia.facebook}
           target="_blank"
@@ -123,9 +148,7 @@ const Contact = () => {
         >
           <FaFacebook />
         </a>
-        <a href={socialMedia.tiktok} target="_blank" rel="noopener noreferrer">
-          <FaTiktok />
-        </a>
+
         <a
           href={socialMedia.linkedin}
           target="_blank"
@@ -141,6 +164,9 @@ const Contact = () => {
           <FaInstagram />
         </a>
       </div>
+      <DownloadButton href="src/assets/Roman--cv.pdf" download>
+        Download My CV
+      </DownloadButton>
     </ContactWrapper>
   );
 };

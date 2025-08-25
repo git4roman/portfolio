@@ -11,26 +11,21 @@ import Contact from "./Contact";
 
 const Wrapper = styled.section`
   background-color: var(--background-color);
-  height: calc(100vh - var(--nav-height));
-  /* overflow: hidden; */
+  // height: calc(100vh - var(--nav-height));
   font-size: var(--font-sm);
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 0 24px;
-  /* scale: 1.2; */
-  /* border: 2px solid red; */
 
   .homeContainer {
     max-width: 75vw;
-    display: grid; /* Enable grid layout */
-    grid-template-columns: 1fr 1fr; /* Two equal columns */
-    gap: 24px; /* Add spacing between grid items */
-    justify-items: center; /* Center content horizontally */
-    align-items: center; /* Center content vertically */
-    min-height: calc(
-      100vh - var(--nav-height)
-    ); /* Ensure it takes full screen height minus navbar */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    justify-items: center;
+    align-items: center;
+    min-height: calc(100vh - var(--nav-height));
   }
 
   .devInfo {
@@ -49,13 +44,13 @@ const Wrapper = styled.section`
   }
 
   .disclaimer {
-    margin-top: 20px;
+    margin-top: 10px;
     font-size: var(--font-esm);
     color: var(--gray-color);
   }
 
   .buttonContainer {
-    margin-top: 24px;
+    margin-top: 12px;
   }
 
   @media (max-width: 769px) {
@@ -119,8 +114,8 @@ const Home = () => {
           </div>
         </div>
       </Wrapper>
-      <About />
       <Portfolio />
+      {/* <About /> */}
       <Contact />
     </>
   );
