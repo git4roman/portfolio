@@ -164,7 +164,7 @@ const Contact = () => {
           <FaInstagram />
         </a>
       </div>
-      <DownloadButton href="public/CV_Roman_Khatri.pdf" download>
+      <DownloadButton href="/CV_Roman_Khatri.pdf" download>
         Download My CV
       </DownloadButton>
     </ContactWrapper>
