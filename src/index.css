@@ -1,33 +1,32 @@
-@import url("https://fonts.googleapis.com/css2?family=Marcellus&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Marcellus", serif;
-  font-weight: 400;
-  font-style: normal;
-  overflow-x: hidden;
-}
+@import url("https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&display=swap");
 
 :root {
-  --primary-color: #009999;
-  --secondary-color: #a70e10;
-  --background-color: #e7f6f6;
-  --gray-color: #003d3d;
-  --accent-color: #075453;
-  --less-shade: #87d3d2;
-  --nav-height: 3rem;
-
-  --font-lg: 2.2rem;
-  --font-md: 1.8rem;
-  --font-sm: 1.5rem;
-  --font-esm: 1rem;
+  --ink: #101312;
+  --paper: #f1f0e9;
+  --muted: #9da59b;
+  --lime: #c7f36b;
+  --line: #2d3530;
+  --panel: #171c19;
+  --background-color: var(--ink);
+  --primary-color: var(--lime);
+  --gray-color: var(--paper);
+  --accent-color: var(--muted);
+  --nav-height: 72px;
 }
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: var(--ink); color: var(--paper); font-family: "DM Sans", sans-serif; }
+body, button, a { -webkit-font-smoothing: antialiased; }
+button, a { font: inherit; }
+img { max-width: 100%; }
+::selection { color: var(--ink); background: var(--lime); }
+
 [data-theme="light"] {
-  --primary-color: #009999;
-  --secondary-color: #d38788;
-  --background-color: #003d3d;
-  --gray-color: #e7f6f6;
-  --accent-color: #87d3d2;
-  --less-shade: #075453;
+  --ink: #f1f0e9;
+  --paper: #101312;
+  --muted: #5f6a61;
+  --lime: #668d08;
+  --line: #d4d9ce;
+  --panel: #e7e9df;
 }

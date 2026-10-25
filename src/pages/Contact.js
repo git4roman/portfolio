@@ -130,9 +130,9 @@ const Contact = () => {
       </p>
 
       <div className="contact-info" data-aos="fade">
-        <div className="address">57204, Birtamode-4, Jhapa, Koshi, Nepal </div>
+        <div className="address">Lalitpur, Nepal</div>
         <div className="email">
-          Email: <a href="mailto:contact@example.com">romanforgit@gmail.com</a>
+          Email: <a href="mailto:romanforgit@gmail.com">romanforgit@gmail.com</a>
         </div>
         <div className="phone">Phone: +977 9817996680</div>
       </div>

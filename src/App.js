@@ -10,8 +10,8 @@ const ScrollToTop = ({ children }) => {
   const location = useLocation(); // Get the location object directly from the hook
 
   useEffect(() => {
-    window.scrollTo(0, 0); // Scroll to top on location change
-  }, [location]); // Dependency on location object
+    if (!window.location.hash) window.scrollTo(0, 0);
+  }, [location.pathname]);
 
   return children; // Return wrapped children to maintain component structure
 };

@@ -1,15 +1,15 @@
 export const devInfoDetails = {
-  name: "Roman Ghimire Khatri",
-  address: "Birtamode-4",
-  email: "rougavko@gmail.com",
+  name: "Roman Khatri",
+  address: "Lalitpur, Nepal",
+  email: "romanforgit@gmail.com",
 };
 
 export const introdata = {
-  title: "Namaste, I am Roman Khatri",
+  title: "Full-stack developer building clear product experiences",
   animated: {
-    first: "A CSIT enthusiast",
-    second: "From Mechi Multiple Campus",
-    third: "A Web Development aspirant",
+    first: "Next.js and TypeScript developer",
+    second: "React Native builder for web and mobile",
+    third: "Focused on travel, booking, and business products",
   },
 };
 
