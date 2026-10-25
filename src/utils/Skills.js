@@ -1,11 +1,14 @@
 import React from "react";
 import styled from "styled-components";
 
-// Dynamically import all SVG files from the folder
-const importAll = (requireContext) => requireContext.keys().map(requireContext);
-
-const svgSkills = importAll(
-  require.context("../assets/images/skills", false, /\.svg$/)
+// Vite's equivalent of webpack's require.context: eagerly resolve the SVG
+// URLs so they can be rendered directly by the browser.
+const svgSkills = Object.values(
+  import.meta.glob("../assets/images/skills/*.svg", {
+    eager: true,
+    import: "default",
+    query: "?url",
+  })
 );
 
 const Wrapper = styled.div`

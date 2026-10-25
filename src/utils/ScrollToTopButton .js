@@ -15,7 +15,7 @@ const ScrollButton = styled.button`
   width: 35px; /* Set the width of the button */
   height: 35px; /* Set the height of the button */
   cursor: pointer;
-  display: ${({ show }) => (show ? "block" : "none")};
+  display: ${({ $show }) => ($show ? "block" : "none")};
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: opacity 0.3s ease;
   overflow: hidden;
@@ -53,7 +53,7 @@ const ScrollToTopButton = () => {
   };
 
   return (
-    <ScrollButton show={isVisible} onClick={scrollToTop}>
+    <ScrollButton $show={isVisible} onClick={scrollToTop}>
       <FaArrowUp />
     </ScrollButton>
   );
